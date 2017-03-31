@@ -10,29 +10,57 @@ html {
   -webkit-text-size-adjust: 100%;
   -text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+table {
+  border: 3px #f2f2f2 solid;
+}
+
+tbody tr {
+  height: 6em;
+}
+
+th {
+  border: 3px #f2f2f2 solid;
+}
+
 td {
-  text-align: right;
+  border: 3px #f2f2f2 solid;
+}
+
+tr {
+  border: 3px #f2f2f2 solid;
 }
 
 .grey {
-  text-align: left;
-}
-
-.red {
-  text-align: left;
+  background-color: #f2f2f2;
+  color: #666;
+  border: 2px #333 solid;
+  border-radius: 8px;
 }
 
 .green {
-  text-align: left;
+  background-color: #d1e0bf;
+  color: #6b7e54;
+  border: 2px #51603f solid;
+  border-radius: 8px;
+}
+
+.red {
+  background-color: #f2bcbc;
+  color: #b92828;
+  border: 2px #991919 solid;
+  border-radius: 8px;
 }
 
 .blue {
-  text-align: left;
+  background-color: #d2d6f0;
+  color: #1d38da;
+  border: 2px #38448e solid;
+  border-radius: 8px;
 }
