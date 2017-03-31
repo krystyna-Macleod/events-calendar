@@ -16,3 +16,23 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+td {
+  text-align: right;
+}
+
+.grey {
+  text-align: left;
+}
+
+.red {
+  text-align: left;
+}
+
+.green {
+  text-align: left;
+}
+
+.blue {
+  text-align: left;
+}
