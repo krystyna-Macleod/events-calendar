@@ -26,15 +26,23 @@ tbody tr {
 }
 
 th {
-  border: 3px #f2f2f2 solid;
+  border: 2px #ccc solid;
 }
 
 td {
-  border: 3px #f2f2f2 solid;
+  border: 2px #ccc solid;
 }
 
 tr {
-  border: 3px #f2f2f2 solid;
+  border: 2px #ccc solid;
+}
+
+.first {
+  border: none;
+}
+
+.second {
+  border-left: none;
 }
 
 .grey {
